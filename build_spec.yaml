@@ -26,7 +26,7 @@ steps:
     version=2.0
     sleep 30
     mvn clean install
-    echo "-----------Build Done----------------- ${OCI_BUILD_RUN_ID}"
+    echo "-----------Build Done----------------- ${OCI_BUILD_RUN_NUMBER}"
   onFailure:
     - type: Command
       timeoutInSeconds: 400
