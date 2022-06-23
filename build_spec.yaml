@@ -16,9 +16,9 @@ env:
  
 steps:
 - type: Command
-    name: "Build RUN OCID print"
-    command: |
-      echo "OCI_BUILD_RUN_ID is: ${OCI_BUILD_RUN_ID}"
+  name: "Build RUN OCID print"
+  command: |
+    echo "OCI_BUILD_RUN_ID is: ${OCI_BUILD_RUN_ID}"
 - type: Command
   name: "Build pipelines-java"
   timeoutInSeconds: 6000
