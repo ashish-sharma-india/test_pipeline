@@ -4,10 +4,10 @@ timeoutInSeconds: 6000
 runAs: root
 shell: bash
 env:
-#variables:
-# "testEnv" : "testValue1"
- exportedVariables:
-  - version
+  variables:
+    "testEnv" : "testValue1"
+  exportedVariables:
+    - testEnv
  
 # inputArtifacts:
 # - name: hello-dev-jar
