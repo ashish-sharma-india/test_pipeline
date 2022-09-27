@@ -6,8 +6,8 @@ shell: bash
 env:
 #  variables:
 #    "testEnv" : "testValue1"
-  exportedVariables:
-    - ${OCI_BUILD_RUN_NUMBER}
+#  exportedVariables:
+#   - ${OCI_BUILD_RUN_NUMBER}
  
 # inputArtifacts:
 # - name: hello-dev-jar
